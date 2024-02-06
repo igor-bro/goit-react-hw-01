@@ -30,10 +30,13 @@ npm install npm run dev
 
 Додаємо опцію генерування Source Maps у файл налаштувань Vite, який розташований
 у кореневій папці проекту. Відкрий файл vite.config.js та заміни його вміст
-додавши build: { sourcemap: true, }
+додавши 
+build: { sourcemap: true, }
 
-# Всі компоненти, а в майбутньому і файли стилів для них, будемо зберігати у папці components, яку створимо всередині папки src.
+Всі компоненти, а в майбутньому і файли стилів для них, будемо зберігати у папці components, яку створимо всередині папки src.
 
-# додатково
+Додатково
 
-npm install clsx npm install modern-normalize npm install react-icons
+npm install clsx 
+npm install modern-normalize 
+npm install react-icons
