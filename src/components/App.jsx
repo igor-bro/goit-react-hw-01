@@ -4,7 +4,7 @@ import viteLogo from '../assets/vite.svg';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   return (
     <>
@@ -19,16 +19,13 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount(count => count + 1)}>
-          Your bet is - {count} - hours
+          Твій варіант - {count} - година(и)
         </button>
         <br />
-        <p>
-          Place a bet - how many hours will it take to complete your next
-          project)
-        </p>
+        <p>Зроби ставку - за скільки годин справишся з наступним ДЗ</p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Тисни Vite та React лого, щоб дізнатись більше...
       </p>
     </>
   );
