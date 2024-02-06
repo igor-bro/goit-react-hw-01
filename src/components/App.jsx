@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React + IgorBro</h1>
       <div className="card">
         <button onClick={() => setCount(count => count + 1)}>
           Твій варіант - {count} - година(и)
@@ -25,7 +25,7 @@ function App() {
         <p>Зроби ставку - за скільки годин справишся з наступним ДЗ</p>
       </div>
       <p className="read-the-docs">
-        Тисни Vite та React лого, щоб дізнатись більше...
+        Тисни Vite та React лого, щоб дізнатись як працює збірка...
       </p>
     </>
   );
